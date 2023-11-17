@@ -82,8 +82,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 2;
 }
-.aboutp h5{
-    font-weight: 100;
+.aboutp h5 {
+  font-weight: 100;
   text-align: justify;
 }
 .history-content {
@@ -99,46 +99,97 @@ li {
   margin-top: 20px;
 }
 
-.history{
-    line-height: 2;
-    font-family: Arial, Helvetica, sans-serif;
+.history {
+  line-height: 2;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.history h5{
-    font-weight: 100;
-    text-align: justify;
+.history h5 {
+  font-weight: 100;
+  text-align: justify;
 }
 
-.service-section{
-    color: navy;
-    font-size: 17px;
+.service-section {
+  color: navy;
+  font-size: 17px;
+  margin-left: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.service-content {
+  display: flex;
+  margin-left: 100px;
+}
+.service-content1 {
+  display: flex;
+  margin-left: 100px;
+}
+.one {
+  margin-left: 305px;
+  color: green;
+}
+.two {
+  margin-left: 400px;
+  color: rgb(205, 66, 184);
+}
+.three {
+  margin-left: 300px;
+  color: green;
+}
+.four {
+  margin-left: 300px;
+  color: rgb(205, 66, 184);
+}
+.red {
+  color: red;
+}
+
+ /* table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  max-width:1200px;
+  margin-left:100px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: green;
+}  */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    max-width: 1200px;
     margin-left: 100px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.service-content{
-    display:flex;
-    margin-left:100px;
-}
-.service-content1{
-    display:flex;
-    margin-left:100px;
-}
-.one{
-    margin-left:105px; 
-    color:green;
-}
-.two{
-    margin-left:200px;
-    color:rgb(205, 66, 184); 
-}
-.three{
-    margin-left:100px; 
-    color:green;
-}
-.four{
-    margin-left:100px; 
-    color:rgb(205, 66, 184); 
-}
-.red{
-    color:red;
-}
-
+  }
+  
+  table,
+  th,
+  td {
+    border: 1px solid black;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: green;
+  }
+  
+  tr:nth-child(2n) {
+    background-color: rgb(229, 248, 229);
+  }
