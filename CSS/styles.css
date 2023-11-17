@@ -70,22 +70,40 @@ body {
 .aboutus {
   color: navy;
   font-size: 17px;
-  margin-left: 100px;
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 50px;
+}
+.aboutus-section {
+  margin-top: 20px;
+  max-width: 1000px;
+  margin-left: 100px;
 }
 
 .aboutp {
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 2;
+}
+.aboutp h5{
+    font-weight: 100;
+  text-align: justify;
+}
+.history-content {
+  margin-top: 10px;
+  max-width: 1000px;
   margin-left: 100px;
-  font-weight: 700;
 }
 
 .history-content ul {
   list-style-type: disc; /* Use 'disc' for filled circles, 'circle' for hollow circles, 'square' for squares, etc. */
-  margin-top: 30px;
 }
 li {
-  margin-left: 100px;
   margin-top: 20px;
+}
+
+.history{
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.history h5{
+    font-weight: 100;
+    text-align: justify;
 }
