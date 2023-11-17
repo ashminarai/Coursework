@@ -203,3 +203,14 @@ th {
 tr:nth-child(2n) {
   background-color: rgb(229, 248, 229);
 }
+
+
+.signature-items {
+    color: navy;
+    font-size: 20px;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .signature-items h5{
+   font-weight:300;
+  }
