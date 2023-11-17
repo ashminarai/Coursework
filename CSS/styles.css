@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   padding: 0;
   border: 4px solid red;
@@ -35,12 +35,57 @@ body {
     margin-left:100px;
     font-weight: 700;
 
+} */
+body {
+  margin: 0;
+  padding: 0;
+  border: 4px solid red;
+  height: 1000px;
+  background-color: beige;
 }
-ul {
-    list-style-type: disc; /* Use 'disc' for filled circles, 'circle' for hollow circles, 'square' for squares, etc. */
-  }
-  
-  ol {
-    list-style-type: decimal; /* Use 'decimal' for numeric numbering, 'lower-alpha' for lowercase alphabetical, etc. */
-  }
-  
+
+.main-container-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.rest-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rest-name h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+
+.hr {
+  color: rgb(54, 54, 237);
+  width: 1300px;
+}
+
+.aboutus {
+  color: navy;
+  font-size: 17px;
+  margin-left: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+}
+
+.aboutp {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 100px;
+  font-weight: 700;
+}
+
+.history-content ul {
+  list-style-type: disc; /* Use 'disc' for filled circles, 'circle' for hollow circles, 'square' for squares, etc. */
+  margin-top: 30px;
+}
+li {
+  margin-left: 100px;
+  margin-top: 20px;
+}
