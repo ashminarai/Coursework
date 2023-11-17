@@ -107,3 +107,38 @@ li {
     font-weight: 100;
     text-align: justify;
 }
+
+.service-section{
+    color: navy;
+    font-size: 17px;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.service-content{
+    display:flex;
+    margin-left:100px;
+}
+.service-content1{
+    display:flex;
+    margin-left:100px;
+}
+.one{
+    margin-left:105px; 
+    color:green;
+}
+.two{
+    margin-left:200px;
+    color:rgb(205, 66, 184); 
+}
+.three{
+    margin-left:100px; 
+    color:green;
+}
+.four{
+    margin-left:100px; 
+    color:rgb(205, 66, 184); 
+}
+.red{
+    color:red;
+}
+
