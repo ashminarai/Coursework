@@ -34,4 +34,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin-left:100px;
     font-weight: 700;
+
 }
+ul {
+    list-style-type: disc; /* Use 'disc' for filled circles, 'circle' for hollow circles, 'square' for squares, etc. */
+  }
+  
+  ol {
+    list-style-type: decimal; /* Use 'decimal' for numeric numbering, 'lower-alpha' for lowercase alphabetical, etc. */
+  }
+  
