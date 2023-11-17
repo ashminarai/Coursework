@@ -40,7 +40,7 @@ body {
   margin: 0;
   padding: 0;
   border: 4px solid red;
-  height: 1500px;
+  height: 1900px;
   background-color: beige;
 }
 
@@ -149,32 +149,18 @@ li {
   font-family: Arial, Helvetica, sans-serif;
 }
 .time h5 {
-font-weight:300;
+  font-weight: 300;
 }
 
-/* table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
-  max-width:1200px;
-  margin-left:100px;
+.locations {
+  color: navy;
+  font-size: 20px;
+  margin-left: 100px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-table,
-th,
-td {
-  border: 1px solid black;
+.locations h5 {
+  font-weight: 300;
 }
-
-th,
-td {
-  padding: 10px;
-  text-align: center;
-}
-
-th {
-  background-color: green;
-}  */
 
 table {
   width: 100%;
@@ -188,6 +174,7 @@ table,
 th,
 td {
   border: 1px solid black;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 th,
@@ -204,13 +191,30 @@ tr:nth-child(2n) {
   background-color: rgb(229, 248, 229);
 }
 
-
 .signature-items {
-    color: navy;
-    font-size: 20px;
-    margin-left: 100px;
+  color: navy;
+  font-size: 20px;
+  margin-left: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.signature-items h5 {
+  font-weight: 300;
+}
+
+.contacts{
+    display: flex;
+}
+span{
+    font-size:16px;
+    color:black;
     font-family: Arial, Helvetica, sans-serif;
-  }
-  .signature-items h5{
-   font-weight:300;
-  }
+}
+.address{
+    margin-left:850px;
+}
+.city{
+    margin-left:853px;
+}
+.contacts1{
+    margin-top:20px;
+}
