@@ -1,0 +1,8 @@
+body{
+    margin:0;
+    padding:0;
+}
+.basics{
+    border:3px solid rgb(49, 232, 223);
+    background-color:yellow;
+}
