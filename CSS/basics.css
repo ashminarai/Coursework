@@ -62,6 +62,7 @@ body{
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
+    border: 3px solid red;
   }
 
   th, td {
@@ -93,7 +94,7 @@ body{
   table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
+    /* margin-top: 20px; */
   }
 
   th, td {
@@ -149,3 +150,33 @@ body{
   td:nth-child(6) {
     background-color: #4d88b3; /* Darker blue background for <h6> outcome */
   }
+
+
+.formatting {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px solid blue;
+}
+
+/* CSS for odd row colors */
+.formatting tr:nth-child(odd) {
+    background-color: #ffffff; /* White for odd rows */
+}
+
+/* CSS for table cells */
+.formatting td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* CSS for the first column in each row */
+.formatting td:first-child {
+    background-color: #ffe0b3; /* Light orange for the first column */
+}
+
+/* CSS for the second column in each row */
+.formatting td:nth-child(2) {
+    background-color: #cc6600; /* Dark orange for the second column */
+}
