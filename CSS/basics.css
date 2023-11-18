@@ -5,6 +5,7 @@ body{
 .basics{
     border:3px solid rgb(49, 232, 223);
     background-color:yellow;
+    height:305px;
 }
 .basics-content h4{
     font-size:17px;
@@ -33,3 +34,118 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 700;
 }
+
+.basics-content1 span{
+    margin-left:100px;
+}
+
+
+/* table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px solid red;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  } */
+
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th:nth-child(odd) {
+    background-color: #ff0; /* Yellow background for odd <h> content */
+  }
+
+  td:nth-child(odd) {
+    background-color: #3498db; /* Blue background for odd web page outcomes */
+  }
+
+  th:nth-child(even) {
+    background-color: #fc0; /* Orange background for even <h> content */
+  }
+
+  td:nth-child(even) {
+    background-color: #5dade2; /* Light blue background for even web page outcomes */
+  }
+
+
+
+
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th:nth-child(1) {
+    background-color: #ff0; /* Yellow background for <h1> content */
+  }
+
+  td:nth-child(1) {
+    background-color: #3498db; /* Blue background for <h1> outcome */
+  }
+
+  th:nth-child(2) {
+    background-color: #fc0; /* Orange background for <h2> content */
+  }
+
+  td:nth-child(2) {
+    background-color: #5dade2; /* Light blue background for <h2> outcome */
+  }
+
+  th:nth-child(3) {
+    background-color: #f90; /* Orange background for <h3> content */
+  }
+
+  td:nth-child(3) {
+    background-color: #7fb3d5; /* Light blue background for <h3> outcome */
+  }
+
+  th:nth-child(4) {
+    background-color: #e69500; /* Darker orange background for <h4> content */
+  }
+
+  td:nth-child(4) {
+    background-color: #66a3d2; /* Darker blue background for <h4> outcome */
+  }
+
+  th:nth-child(5) {
+    background-color: #e64d00; /* Dark orange background for <h5> content */
+  }
+
+  td:nth-child(5) {
+    background-color: #5890c3; /* Dark blue background for <h5> outcome */
+  }
+
+  th:nth-child(6) {
+    background-color: #e60000; /* Red background for <h6> content */
+  }
+
+  td:nth-child(6) {
+    background-color: #4d88b3; /* Darker blue background for <h6> outcome */
+  }
